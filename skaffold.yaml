@@ -2,7 +2,7 @@ apiVersion: skaffold/v1beta2
 kind: Config
 build:
   artifacts:
-  - image: myproject/jxltest2
+  - image: hibob/jxltest2
     context: .
     docker: {}
   tagPolicy:
